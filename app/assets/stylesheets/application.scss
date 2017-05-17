@@ -32,3 +32,39 @@
    height: 400px;
 
  }
+
+ .footer_side {
+ 	width:100%;
+ 	min-width:1200px;
+ 	line-height:60px;
+ 	font-size:14px;
+ 	color:#727272;
+ 	background:#000;
+ }
+ .footer {
+ 	width:1030px;
+ 	margin:0 auto;
+ }
+ .footer span {
+ 	float:right;
+ 	color:#3a3a3a;
+ }
+ .footer a {
+ 	color:#3a3a3a;
+ 	font-size:12px;
+ 	-webkit-transition:all 0.4s;
+     -moz-transition:all 0.4s;
+     -o-transition:all 0.4s;
+     transition:all 0.4s;
+ 	margin:0 10px;
+ }
+ .footer a:hover {
+ 	color:#fff;
+ }
+ .usr-rmenu{position:fixed; right:50px; bottom:200px; z-index:999; }
+ .usr-rmenu .btn{width:72px; height:73px; cursor:pointer; position:relative;}
+ .usr-rmenu .btn-qq{background:url(../images/usr_qq.png) no-repeat; background-color:#79cbf5;}
+ .usr-rmenu .btn-qq:hover{background-color:#488bc7;}
+ .usr-rmenu a.btn-qq,.usr-rmenu a.btn-qq:visited{background:url(../images/usr_qq.png) no-repeat; background-color:#6da9de; text-decoration:none; display:block;}
+ .usr-rmenu .btn-top{background:url(../images/usr_top.png) no-repeat; background-color:#666666; display:none;}
+ .usr-rmenu .btn-top:hover{background-color:#444;}
